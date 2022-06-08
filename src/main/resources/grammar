@@ -1,0 +1,9 @@
+Terminals : c d
+RegexpTerminal : NUMBERS-> \d+
+NonTerminals : S C
+Rule : S-> C C
+Rule : C-> c C
+Rule : C-> d
+Rule : C-> NUMBERS
+Epsilon : #
+

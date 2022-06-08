@@ -1,0 +1,6 @@
+Terminals : <
+RegexpTerminal : IDENTIFIER_WITH_CLOSE_BR-> .*>
+NonTerminals : S
+Rule : S-> < IDENTIFIER_WITH_CLOSE_BR
+Epsilon : #
+
